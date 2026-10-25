@@ -241,3 +241,10 @@ usare fondo crema, el texto sera de azul noche, los enlaces seran de su color ba
 despues de una extensa investigacion buscando el error de porque no me funcionaban los links en index al final pude solucionarlo
 
 https://emanuellpcz.github.io/rueda-libree/index.html
+
+correccion de malos habitos(uso del br) en el formulario
+correccion, cambie el div de el formulario por un section
+
+una propiedad que se hereda es la de color, cambiando el color de la letra
+una propiedad que no se hereda es la de background color, que solo cambia el color de fondo del body
+

@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservas Rueda libre</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -32,36 +41,36 @@
 
     </dl>
 
-    <div id="formulario-reserva">
+    <section id="formulario-reserva">
 
         <form action="post">
-
-            <h3>Tus datos</h3>
-
+            <fieldset>
+                <legend>Tus datos</legend>
+            <p>
             <label for="nombre">Nombre completo</label>
-            <br>
             <input id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre" required minlength="3" title="Ingrese minimo 3 caracteres">
-            <br><br>
+            </p>
+            <p>
             <label for="documento">Numero de documento</label>
-            <br>
             <input id="documento" name="documento" type="text" placeholder="Ingrese su documento" required minlength="6" maxlength="10" title="su documento debe tener entre 6 y 10 caracteres">
-            <br><br>
+            </p>
+            <p>
             <label for="correo">Correo electronico</label>
-            <br>
             <input id="correo" name="correo" type="email" placeholder="Ingrese su correo" required title="este campo es obligatorio">
-            <br><br>
+            </p>
+            <p>
             <label for="numero">Numero de contacto</label>
-            <br>
             <input id="numero" name="numero" type="number" placeholder="Ingrese su numero" required min="3000000000" max="3999999999" title="El numero de telefono debe empezar por 3 y tener 10 caracteres">
-            <br>
-            <h3>Tu alquiler</h3>
-            <br>
+            </p>
+            </fieldset>
+            <fieldset>
+            <legend>Tu alquiler</legend>
+            <p>
             <label for="fecha">Fecha del alquiler</label>
-            <br>
             <input id="fecha" name="fecha" type="date" min="2026-11-01" max="2026-12-30" required title="solo se aceptan reservas entre el 1/11/26 y el 30/12/26">
-            <br><br>
+            </p>
+            </p>
             <label for="tipo-bicicleta">Tipo de bicicleta</label>
-            <br>
             <select name="tipo-bicicleta" id="tipo-bicicleta" required title="este campo es obligatorio">
 
                 <option value="1">Urbana</option>
@@ -69,9 +78,9 @@
                 <option value="3">Electrica</option>
 
             </select>
-            <br><br>
+            </p>
+            <p>
             <label for="tipo-plan">Tipo de plan</label>
-            <br>
             <select name="tipo-plan" id="tipo-plan" required title="este campo es obligatorio">
 
                 <option value="1">1 hora</option>
@@ -79,13 +88,13 @@
                 <option value="3">1 dia</option>
 
             </select>
-            <br><br>
+            </p>
+            <p>
             <label for="cantidad-bicicletas">Cantidad de bicicletas</label>
-            <br>
             <input id="cantidad-bicicletas" name="cantidad-bicicletas" type="number" placeholder="Cuantas bicicletas llevara" required min="1" max="6" title="solo puedes reservar entre 1 y 6 bicicletas">
-            <br><br>
+            </p>
+            <p>
             <label for="tipo-recorrido">Tipo de recorrido</label>
-            <br>
             <select name="tipo-recorrido" id="tipo-recorrido">
 
                 <option value="1">ninguno</option>
@@ -94,23 +103,27 @@
                 <option value="4">Reto las palmas</option>
 
             </select>
-            <br>
-            <h3>Confirmacion</h3>
-            <br>
+            </p>
+            </fieldset>
+            <fieldset>
+            <legend>Confirmacion</legend>
+            <p>
             <label for="comentario">Comentarios</label>
-            <br>
             <textarea name="comentario" id="comentario" placeholder="Ingrese informacion adicional" maxlength="300" title="este campo tiene un maximo de 300 caracteres"></textarea>
-            <br><br>
+            </p>
+            <p>
             <label for="terminos">
                 <input type="checkbox" name="terminos" id="terminos" required title="este campo es obligatorio">
                 Acepto los terminos de alquiler
             </label>
-            <br><br>
+            </p>
+            <p>
             <button type="submit">Enviar</button>
-
+            </p>
+            </fieldset>
         </form>
 
-    </div>
+    </section>
 
     </main>
 
