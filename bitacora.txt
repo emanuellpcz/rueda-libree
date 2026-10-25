@@ -1,3 +1,4 @@
+MiniReto #1
 Metodo:GET
 URL:http://127.0.0.1:5500/
 Codigo de status:304 Not Modified
@@ -14,6 +15,9 @@ El html servira para formar las bases de la pagina como las imagenes de las bici
 el css servira para darles tamañno a las imagenes, organizarlas al lado de su texto y cambiar el diseño de fondo para que sea mas ameno
 el javascript servira para que la pagina tenga funcionalidad real como poder rentar realmente las bicicletas
 
+========================================================================
+
+MiniReto #4
 INDEX
 index → index
 origen: index
@@ -84,7 +88,7 @@ origen:reservas
 destino: correp
 ruta: mailto: hola@ruedalibre.example
 
-
+========================================================================
 
 La estructura de mi pagina es bastante simple, se compone de:
 
@@ -100,6 +104,8 @@ hay dos divs que se deben conservar en la pagina de tarifas ya que son informaci
 
 (hoy 22/10/2026 se fue la luz en las oficinas de riwi y perdi progreso que tuve que adelantar en casa, al intentar subir lo rehecho a github me aparecio un error que pude solucionar con la ayuda de la ia, por esto talvez habra un commit extra)
 
+
+MiniReto #7
 Test 1 
 
 Nombre completo	Juan Pérez Gómez
@@ -213,12 +219,13 @@ Tipo de recorrido	Sabores de barrio
 Comentarios	Por favor, preparar las bicicletas temprano.
 Acepta políticas	nocheck
 
+========================================================================
 
 corregi el alt de una imagen de "imagen-bicicleta" a "logo"
 
 renombramiento del alt de almenos 3 imagenes para mejor comprendimiento
 
-
+MiniReto #8
 combinacion 1: blanco sobre verde ruta: apta para texto largo
 
 combinacion 2: blanco sobre naranja pedal: no apto
@@ -245,6 +252,12 @@ https://emanuellpcz.github.io/rueda-libree/index.html
 correccion de malos habitos(uso del br) en el formulario
 correccion, cambie el div de el formulario por un section
 
+========================================================================
+
+MiniReto #9
 una propiedad que se hereda es la de color, cambiando el color de la letra
 una propiedad que no se hereda es la de background color, que solo cambia el color de fondo del body
 
+MiniReto #10
+El conflicto consiste en que los links estan tomando el color de el estilo que usa el id, ya que su especificidad tiene prioridad
+lo solucione creando la clase "inactivo", no estoy seguro si es la mejor solucion pero es la que usare
