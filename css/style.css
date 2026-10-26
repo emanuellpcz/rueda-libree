@@ -1,3 +1,10 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+
 :root{
 
     /*colores*/
@@ -37,6 +44,13 @@ h1, h2, h3{
 
     font-family: var(--fuente-titulos);
     font-weight: var(--grosor-titulos);
+
+}
+
+#menu{
+
+    display: flex;
+    gap: var(--espaciado-grande);
 
 }
 
@@ -85,3 +99,108 @@ input:focus{
     outline: 2px solid #a5d6a7;
 
 }
+
+main{
+
+    max-width: 60rem;
+    width: 100%;
+    margin-inline:auto ;
+
+}
+
+#bienvenida{
+
+    min-height: 100vh;
+
+}
+
+#venta-bicicleta{
+
+    border: 1px solid;
+    border-radius: 7px;
+    margin: var(--espaciado-mediano);
+    padding: var(--espaciado-pequeno);
+
+}
+
+#venta-recorridos{
+
+    border: 1px solid;
+    border-radius: 7px;
+    margin: var(--espaciado-mediano);
+    padding: var(--espaciado-pequeno);
+    
+}
+
+#venta-bicicleta img{
+
+    width: 100%;
+
+}
+
+#venta-recorridos img{
+
+    width: 100%;
+
+}
+
+#tabla-bicicleta table tr th, td{
+
+    padding: var(--espaciado-pequeno);
+
+}
+
+#tabla-recorrido table tr th, td{
+
+    padding: var(--espaciado-pequeno);
+
+}
+
+#tabla-bicicleta table tr th{
+
+    background-color: var(--naranja-pedal);
+
+}
+
+#tabla-recorrido table tr th{
+
+    background-color: var(--naranja-pedal);
+
+}
+
+#input{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+#input input{
+
+    padding: var(--espaciado-pequeno);
+
+}
+
+#boton button{
+
+    padding: var(--espaciado-mediano);
+    width: 50%;
+    margin-inline: auto;
+    background-color: var(--verde-ruta);
+    color: var(--crema);
+
+}
+
+#boton{
+
+display: flex;
+flex-direction: column;
+
+}
+
+fieldset{
+
+    margin: var(--espaciado-mediano);
+
+}
+

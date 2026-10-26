@@ -261,3 +261,6 @@ una propiedad que no se hereda es la de background color, que solo cambia el col
 MiniReto #10
 El conflicto consiste en que los links estan tomando el color de el estilo que usa el id, ya que su especificidad tiene prioridad
 lo solucione creando la clase "inactivo", no estoy seguro si es la mejor solucion pero es la que usare
+
+MiniReto #11
+con y sin el box sizing miden lo mismo las tarjetas, no noto ningun cambio, puede que sea error mio
