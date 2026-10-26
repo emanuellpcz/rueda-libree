@@ -1,4 +1,6 @@
 
+
+/*configuraciones generales*/
 * {
     box-sizing: border-box;
 }
@@ -40,6 +42,22 @@ body{
 
 }
 
+main{
+
+    max-width: 60rem;
+    width: 100%;
+    margin-inline:auto ;
+
+}
+
+/*Fuentes de texto*/
+a{
+
+    font-family: var(--fuente-textos);
+    font-weight: var(--grosor-textos);
+
+}
+
 h1, h2, h3{
 
     font-family: var(--fuente-titulos);
@@ -47,6 +65,7 @@ h1, h2, h3{
 
 }
 
+/*Nav bar*/
 #menu{
 
     display: flex;
@@ -70,10 +89,17 @@ h1, h2, h3{
 
 }
 
+/*botones de funciones adicionales*/
 .reservar-ahora{
 
     border-radius: 5px;
     background-color: var(--verde-ruta);
+    padding: var(--espaciado-pequeno);
+
+}
+
+.reservar-ahora a{
+
     color: var(--crema);
     text-decoration: none;
 
@@ -85,6 +111,7 @@ h1, h2, h3{
 
 }
 
+/*Formulario*/
 input{
 
     border-radius: 5px;
@@ -100,19 +127,105 @@ input:focus{
 
 }
 
-main{
+select{
 
-    max-width: 60rem;
-    width: 100%;
-    margin-inline:auto ;
+    border-radius: 5px;
+    border: 1px solid;
+    outline: none;
+    padding: var(--espaciado-pequeno);
+    background-color: #ffffff;
 
 }
 
+select:focus{
+
+    border-color: var(--gris-asfalto);
+    outline: 2px solid #a5d6a7;
+
+}
+
+#input{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+#input input{
+
+    padding: var(--espaciado-pequeno);
+
+}
+
+#boton button{
+
+    padding: var(--espaciado-mediano);
+    width: 50%;
+    margin-inline: auto;
+    background-color: var(--verde-ruta);
+    color: var(--crema);
+    border-radius: 5px;
+
+}
+
+#boton{
+
+display: flex;
+flex-direction: column;
+
+}
+
+fieldset{
+
+    margin: var(--espaciado-mediano);
+
+}
+
+
+/*Portada*/
 #bienvenida{
 
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 
 }
+
+#bienvenida img{
+
+    width: 70%;
+
+}
+
+#bienvenida button{
+
+    width: 20%;
+    margin: var(--espaciado-mediano);
+
+}
+
+/*Seccion encuentranos, pagina principal*/
+
+#encuentranos{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+#encuentranos button{
+
+    width: 20%;
+
+}
+
+#encuentranos img{
+
+    width: 50%;
+
+}
+
+/*Tarjeta de bicicleta*/
 
 #venta-bicicleta{
 
@@ -123,6 +236,12 @@ main{
 
 }
 
+#venta-bicicleta img{
+
+    width: 100%;
+
+}
+/*Tarjeta recorridos*/
 #venta-recorridos{
 
     border: 1px solid;
@@ -132,18 +251,13 @@ main{
     
 }
 
-#venta-bicicleta img{
-
-    width: 100%;
-
-}
-
 #venta-recorridos img{
 
     width: 100%;
 
 }
 
+/*Tablas*/
 #tabla-bicicleta table tr th, td{
 
     padding: var(--espaciado-pequeno);
@@ -168,39 +282,20 @@ main{
 
 }
 
-#input{
+/*Footer*/
 
-    display: flex;
-    flex-direction: column;
+footer{
 
-}
-
-#input input{
-
-    padding: var(--espaciado-pequeno);
+    position: relative;
 
 }
 
-#boton button{
+#whatsapp{
 
-    padding: var(--espaciado-mediano);
-    width: 50%;
-    margin-inline: auto;
-    background-color: var(--verde-ruta);
-    color: var(--crema);
-
-}
-
-#boton{
-
-display: flex;
-flex-direction: column;
-
-}
-
-fieldset{
-
-    margin: var(--espaciado-mediano);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    
 
 }
 
