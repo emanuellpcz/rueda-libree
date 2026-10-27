@@ -298,6 +298,10 @@ Semana 2
 
 MiniReto 1: Reorganizacion del espacio sobre todo en el header y el footer, comienzo de la optimizacion para la funcion de responsive
 
+MiniReto 2: Integracion de la seccion de flota con varias tarjetas, haciendo la pagina mas dinamica
+
 
 MiniReto #1 (semana 2):
 A medida que se va reduciendo el tamaño del responsive se va volviendo mas dificil de entender el contenido de la pagina pero el header y el footer se mantienen entendibles ya que se adaptan al tamaño y se reorganiza la informacion
+
+MiniReto #2 (semana 2): a 1280 pixeles la pagina sigue siendo entendible y sigue teniendo 3 columnas, a 900px sigue sin tener cambios, 3 columnas y sigue teniendo la misma sintaxis, a 500px sigue siendo entendible y con 3 columnas, funciona perfectamente

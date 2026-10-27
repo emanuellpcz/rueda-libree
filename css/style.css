@@ -206,6 +206,33 @@ fieldset{
 }
 
 
+/*Flota*/
+
+#flota{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--espaciado-mediano);
+
+}
+
+#flota article{
+
+    border: solid 1px black;
+    border-radius: 7px;
+    padding: var(--espaciado-pequeno);
+    display: flex;
+    flex-direction: column;
+
+}
+
+#flota article img{
+
+    width: 100px;
+
+}
+
+
 /*Portada*/
 #bienvenida{
 
