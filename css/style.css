@@ -65,11 +65,35 @@ h1, h2, h3{
 
 }
 
+/*Header*/
+
+header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+header #logo-titulo{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+header img{
+
+    width: 100px;
+
+}
+
 /*Nav bar*/
 #menu{
 
     display: flex;
     gap: var(--espaciado-grande);
+    flex-wrap: wrap;
 
 }
 
@@ -287,6 +311,16 @@ fieldset{
 footer{
 
     position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+footer #marca img{
+
+    width: 100px;
 
 }
 

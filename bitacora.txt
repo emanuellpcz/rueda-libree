@@ -264,3 +264,40 @@ lo solucione creando la clase "inactivo", no estoy seguro si es la mejor solucio
 
 MiniReto #11
 con y sin el box sizing miden lo mismo las tarjetas, no noto ningun cambio, puede que sea error mio
+
+RESUMEN:
+
+Semana 1
+
+MiniReto 1: Creacion del repositorio y la pagina junto con comprobaciones con las devtools
+
+MiniReto 2: Agregacion de textos imagenes y links junto a mas comprobaciones con devtools
+
+MiniReto 3: Creacion de la pagina de tarifas y las tablas de bicicletas y recorridos
+
+MiniReto 4: Creacion de la pagina de reservas junto con la navbar y parte del footer
+
+MiniReto 5: Organizacion del contenido de las paginas en etiquetas de agrupacion como section, article, etc
+
+MiniReto 6: Creacion del formulario en la pagina de reservas
+
+MiniReto 7: Reforzar el formulario con requisitos especificos en cada campo
+
+MiniReto 8: Creacion del codigo de color de la pagina y publicacion de la misma en github pages
+
+MiniReto 9: Implementacion de el archivo de estilos junto con las fuentes de texto y los colores anteriormente denominados como codigo de color
+
+MiniReto 10: Creacion de funciones con los estilos de css haciendo la pagina mas dinamica
+
+MiniReto 11: Optimizacion del espacio de la pantalla e integracion de las tarjetas en la pagina de inicio
+
+MiniReto 12: Agregar ultimos detalles y revision de la pagina para inaugurar su lanzamiento
+=====================================================================================================================================================================
+
+Semana 2
+
+MiniReto 1: Reorganizacion del espacio sobre todo en el header y el footer, comienzo de la optimizacion para la funcion de responsive
+
+
+MiniReto #1 (semana 2):
+A medida que se va reduciendo el tamaño del responsive se va volviendo mas dificil de entender el contenido de la pagina pero el header y el footer se mantienen entendibles ya que se adaptan al tamaño y se reorganiza la informacion
