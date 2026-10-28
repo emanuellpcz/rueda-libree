@@ -36,20 +36,23 @@
     <main>
 
     <section id="bienvenida">
+        <article>
     <h1>Reserva tu bicicleta</h1>
     <p>Aqui podras rellenar el formulario para reservar tu bicicleta y tu recorrido</p>
     <button class="reservar-ahora"><a href="mailto: hola@ruedalibre.example" target="_blank">Contactanos</a></button>
+        </article>
     <img src="../img/imagen-portada.webp" alt="logo">
     </section>
     
     
+    <section id="contenido">
     
-
     <section id="formulario-reserva">
 
-        <form action="post">
+        <form action="" method="post">
             <fieldset>
                 <legend>Tus datos</legend>
+            <div id="nombre-doc">
             <p id="input">
             <label for="nombre">Nombre completo</label>
             <input id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre" required minlength="3" title="Ingrese minimo 3 caracteres">
@@ -58,6 +61,7 @@
             <label for="documento">Numero de documento</label>
             <input id="documento" name="documento" type="text" placeholder="Ingrese su documento" required minlength="6" maxlength="10" title="su documento debe tener entre 6 y 10 caracteres">
             </p>
+            </div>
             <p id="input">
             <label for="correo">Correo electronico</label>
             <input id="correo" name="correo" type="email" placeholder="Ingrese su correo" required title="este campo es obligatorio">
@@ -127,6 +131,30 @@
         </form>
 
     </section>
+
+    <section id="formulario-soporte">
+
+        <h2>Contacto</h2>
+
+        <p>Para contactanos por correo electronico haga click <a href="mailto: hola@ruedalibre.example" target="_blank">Aqui</a></p>
+        <p>Para escribirnos por nuestro whatsapp haga click <a href="https://wa.me/573000000000" target="_blank">Aqui</a></p>
+        <p>Para encontrar nuestra sede mas cercana haga click <a target="_blank" href="https://www.google.com/maps/place/De+Moda+Outlet/@6.2193884,-75.5859549,17z/data=!3m1!4b1!4m6!3m5!1s0x8e4429e1dab04e05:0x5a77c25c8a5faf3a!8m2!3d6.2193831!4d-75.5833746!16s%2Fg%2F11gv_xr9wj?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D">Aqui</a></p>
+
+        <h3>Horarios de atencion</h3>
+    <dl>
+
+        <dt>Entre semana</dt>
+        <dd>7AM → 7PM</dd>
+
+        <dt>Fines de semana y festivos</dt>
+        <dd>6AM → 2PM</dd>
+
+    </dl>
+        
+    </section>
+    </section>
+
+    
 
     </main>
 

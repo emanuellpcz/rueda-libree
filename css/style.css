@@ -205,10 +205,24 @@ fieldset{
 
 }
 
+#nombre-doc{
 
-/*Flota*/
+    display: flex;
+    flex-direction: row;
+    gap: var(--espaciado-grande);
+    width: 100%;
 
-#flota{
+}
+#nombre-doc input{
+
+    width: 100%;
+
+}
+
+
+/*Flota y rutas*/
+
+#flota , #rutas{
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -216,7 +230,7 @@ fieldset{
 
 }
 
-#flota article{
+#flota article, #rutas article{
 
     border: solid 1px black;
     border-radius: 7px;
@@ -232,13 +246,27 @@ fieldset{
 
 }
 
+#rutas article img{
+
+    width: 100%;
+
+}
+
+/*Contenido reservas*/   
+#contenido{
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
 
 /*Portada*/
 #bienvenida{
 
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 
 }
 
@@ -252,6 +280,13 @@ fieldset{
 
     width: 20%;
     margin: var(--espaciado-mediano);
+
+}
+
+#bienvenida article{
+
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -359,4 +394,7 @@ footer #marca img{
     
 
 }
+
+
+
 
