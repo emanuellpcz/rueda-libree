@@ -302,7 +302,7 @@ MiniReto 2: Integracion de la seccion de flota con varias tarjetas, haciendo la 
 
 MiniReto 3: Uso de grid y organizacion de todo el proyecto mediante columnas para organizar mejor la informacion
 
-MiniReto 4: 
+MiniReto 4: Aplicacion de mobile-first para adaptar la pagina dispositivos moviles
 
 
 
@@ -316,3 +316,6 @@ MiniReto #2 (semana 2): a 1280 pixeles la pagina sigue siendo entendible y sigue
 MiniReto #3 (semana 2): En la portada use el grid para separar ya que me fue mas como organizandolo en 2 columnas: informacion-imagen,
                         En la galeria y formulario use el grid porque me parecio mucho mas comodo utilizar las columnas para organizar las tarjetas y el formulario
                         En los inputs dentro del formulario, el header y el footer usedisplay flex principalmente porque no conocia el grid, pero igualmente en los inputs se me hizo mas comodo hacerlo con flex
+
+MiniReto #4 (semana 2): Encontre que el boton de encuentranos en la portada tenia un tamaño extrano que hacia que quedara raro al encongerse la pagina, resulta que tenia un ancho fijo en css, por lo que en vez de eso le puse un ancho maximoy se soluciono
+                        No encontre mas problemas

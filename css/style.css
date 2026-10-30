@@ -39,6 +39,7 @@ body{
 
     background-color: var(--crema);
     color: var(--azul-noche);
+    gap: var(--espaciado-grande);
 
 }
 
@@ -70,7 +71,7 @@ h1, h2, h3{
 header{
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 
 }
@@ -225,7 +226,15 @@ fieldset{
 #flota , #rutas{
 
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    gap: var(--espaciado-mediano);
+
+}
+
+#flota , #rutas {
+
+    display: grid;
+    grid-template-columns: 1fr;
     gap: var(--espaciado-mediano);
 
 }
@@ -252,11 +261,17 @@ fieldset{
 
 }
 
+#img-2{
+
+    width: 100%;
+
+}
+
 /*Contenido reservas*/   
 #contenido{
 
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr;
 
 }
 
@@ -266,7 +281,7 @@ fieldset{
 
     min-height: 100vh;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns:1fr;
 
 }
 
@@ -278,7 +293,7 @@ fieldset{
 
 #bienvenida button{
 
-    width: 20%;
+    max-width: 14rem;
     margin: var(--espaciado-mediano);
 
 }
@@ -374,7 +389,7 @@ footer{
 
     position: relative;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 
 }
@@ -392,6 +407,92 @@ footer #marca img{
     right: 0;
     bottom: 0;
     
+
+}
+
+/*Estilos para pantalla de tablet*/
+
+@media (min-width: 768px){
+
+    header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+    
+    #bienvenida{
+
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+#contenido{
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+} 
+#flota , #rutas{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: var(--espaciado-mediano);
+
+}
+
+footer{
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+}
+
+@media (min-width: 1200px){
+
+    header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+    #bienvenida{
+
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+#contenido{
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+} 
+#flota , #rutas{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: var(--espaciado-mediano);
+
+}
+
+footer{
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
 
 }
 
