@@ -318,4 +318,5 @@ MiniReto #3 (semana 2): En la portada use el grid para separar ya que me fue mas
                         En los inputs dentro del formulario, el header y el footer usedisplay flex principalmente porque no conocia el grid, pero igualmente en los inputs se me hizo mas comodo hacerlo con flex
 
 MiniReto #4 (semana 2): Encontre que el boton de encuentranos en la portada tenia un tamaño extrano que hacia que quedara raro al encongerse la pagina, resulta que tenia un ancho fijo en css, por lo que en vez de eso le puse un ancho maximoy se soluciono
-                        No encontre mas problemas
+                        edit: Al ver la pagina en el celular me di cuenta que en la opcion de chrome de emular el responsive no se ve realmente como quedaria en un celular, ya que ahi me decia que quedaria bien y cuando lo revise en el celular estaba mal, al final le reduci el tamaño a la letra de las tablas y les quite el padding a los datos y encabezados de tabla para que cupiera bien
+                        

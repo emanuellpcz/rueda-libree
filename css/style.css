@@ -361,13 +361,13 @@ fieldset{
 /*Tablas*/
 #tabla-bicicleta table tr th, td{
 
-    padding: var(--espaciado-pequeno);
+    font-size: 0.8rem;
 
 }
 
 #tabla-recorrido table tr th, td{
 
-    padding: var(--espaciado-pequeno);
+    font-size: 0.8rem;
 
 }
 
@@ -452,6 +452,18 @@ footer{
 
 }
 
+#tabla-bicicleta table tr th, td{
+
+    padding: var(--espaciado-pequeno);
+
+}
+
+#tabla-recorrido table tr th, td{
+
+    padding: var(--espaciado-pequeno);
+
+}
+
 }
 
 @media (min-width: 1200px){
@@ -491,6 +503,18 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
+}
+
+#tabla-bicicleta table tr th, td{
+
+    padding: var(--espaciado-pequeno);
+
+}
+
+#tabla-recorrido table tr th, td{
+
+    padding: var(--espaciado-pequeno);
 
 }
 
