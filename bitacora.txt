@@ -304,6 +304,8 @@ MiniReto 3: Uso de grid y organizacion de todo el proyecto mediante columnas par
 
 MiniReto 4: Aplicacion de mobile-first para adaptar la pagina dispositivos moviles
 
+MiniReto 5: Creacion de la nueva pagina de pruebas y utilizacion de bootstrap
+
 
 
 
@@ -320,3 +322,5 @@ MiniReto #3 (semana 2): En la portada use el grid para separar ya que me fue mas
 MiniReto #4 (semana 2): Encontre que el boton de encuentranos en la portada tenia un tamaño extrano que hacia que quedara raro al encongerse la pagina, resulta que tenia un ancho fijo en css, por lo que en vez de eso le puse un ancho maximoy se soluciono
                         edit: Al ver la pagina en el celular me di cuenta que en la opcion de chrome de emular el responsive no se ve realmente como quedaria en un celular, ya que ahi me decia que quedaria bien y cuando lo revise en el celular estaba mal, al final le reduci el tamaño a la letra de las tablas y les quite el padding a los datos y encabezados de tabla para que cupiera bien
                         
+MiniReto #5 (semana 2): Para hacer la seccion de flota con css normal utilice al menos 16 lineas de codigo en css, mientras que con bootstrap solo use 9 clases, ademas de que solo tarde 30 minutos (los cuales la gran mayoria fueron entender bootstrap porque me estaba enredando solo), para hacer solamente las columnas la verdad es que bootstrap es muchisimo mas comodo y rapido
+
