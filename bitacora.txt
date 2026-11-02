@@ -306,6 +306,8 @@ MiniReto 4: Aplicacion de mobile-first para adaptar la pagina dispositivos movil
 
 MiniReto 5: Creacion de la nueva pagina de pruebas y utilizacion de bootstrap
 
+MiniReto 6: Estructuracion del nuevo apartado de ventajas de usar rueda libre junto con el uso exclusivo de bootstrap para los estilos
+
 
 
 
@@ -324,3 +326,4 @@ MiniReto #4 (semana 2): Encontre que el boton de encuentranos en la portada teni
                         
 MiniReto #5 (semana 2): Para hacer la seccion de flota con css normal utilice al menos 16 lineas de codigo en css, mientras que con bootstrap solo use 9 clases, ademas de que solo tarde 30 minutos (los cuales la gran mayoria fueron entender bootstrap porque me estaba enredando solo), para hacer solamente las columnas la verdad es que bootstrap es muchisimo mas comodo y rapido
 
+MiniReto #6 (semana 2): Use a chatgpt para que me fuera diciendo unicamente las clases que necesitaria para cada actividad, encontre las funciones de row y col, que sirven para indicar como se usara la grilla de bootstrap, encontre la clase de m, que sirve para especificar la margen, p por su lado sirve para el padding, osea el espacio interior entre el contenido y los bordes, luego el d-flex que sirve para basicamente especificar el display flex, y el d, el cual no sabia de su existencia e hizo que un elemento pudiera aparecer y desaparecer a voluntad
