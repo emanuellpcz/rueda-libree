@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarifas Rueda Libre</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body class="d-flex flex-column gap-5">
+
+    <header class="d-flex flex-column flex-sm-row justify-content-between">
+
+        <div class="d-flex flex-row align-items-center">
+            <div>
+            <img src="../img/logo.png" alt="logo">
+            </div>
+            <div>
+            <h3 class="text-white">Rueda Libre</h3>
+        </div>
+
+        </div>
+
+        <nav class="d-flex flex-row m-4 gap-3" id="menu">
+            <a href="index-bootstrap.html" class="inactivo">Inicio</a>
+            <a href="tarifas-bootstrap.html" class="activo">Tarifas y recorridos</a>
+            <a href="reservas-bootstrap.html" class="inactivo">Reservas</a>
+        </nav>
+        
+
+    </header>
+
+    <main class="container gap-5">
+
+    <section class="row g-4 m-4">
+        <article class="col-12 col-md-8 pl-4 w-80">
+    <h1>Tarifas</h1>
+
+    <p>Aqui podras revisar los precios de nuestros bienes y servicios</p>
+        </article>
+    
+        <article class="col-12 col-md-4">
+    <img class="img-fluid" src="../img/imagen-portada.webp" alt="Logo">
+        </article>
+    </section>
+
+    <section class="row g-4 row-cols-1 row-cols-lg-2">
+
+    <section>
+    <section id="tabla-bicicleta" class="">
+    <table class="table table-bordered border-dark caption-side-top">
+        <caption>Tarifas</caption>
+
+        
+        <thead>
+        <tr>
+        <th scope="col">Tipo de bicicleta</th>
+        <th scope="col">Una hora</th>
+        <th scope="col">Medio dia (4h)</th>
+        <th scope="col">Dia completo</th>
+        </tr>
+        </thead>
+        
+        <tbody>
+        <tr>
+        <th scope="row">Urbana</td>
+        <td>$10000</td>
+        <td>$30000</td>
+        <td>$50000</td>
+        </tr>
+        <tr>
+        <th scope="row">Montaña</td>
+        <td>$15000</td>
+        <td>$45000</td>
+        <td>$70000</td>
+        </tr>
+        <tr>
+        <th scope="row">Electrica</td>
+        <td>$25000</td>
+        <td>$70000</td>
+        <td>$110000</td>
+        </tr>
+        </tbody>
+
+    </table>
+    </section>
+
+    <div id="informacion-complementaria">
+    <p>Todas las tarifas <strong>incluyen casco y candado.</strong></p>
+    </div>
+    </section>
+    
+    <section>
+    <section id="tabla-recorrido">
+    <table class="table table-bordered border-dark caption-side-top">
+        <caption>Recorridos</caption>
+        <thead>
+        <tr>
+            <th scope="col">Recorrido</th>
+            <th scope="col">Distancia</th>
+            <th scope="col">Duracion</th>
+            <th scope="col">Nivel</th>
+            <th scope="col">Precio P/P</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">Rio y parques</td>
+            <td>12KM</td>
+            <td>2h</td>
+            <td>Facil</td>
+            <td>$45000</td>
+        </tr>
+        <tr>
+            <th scope="row">Sabores de barrio</td>
+            <td>18KM</td>
+            <td>3h</td>
+            <td>Medio</td>
+            <td>$60000</td>
+        </tr>
+        <tr>
+            <th scope="row">Reto las palmas</td>
+            <td>25KM</td>
+            <td>4h</td>
+            <td>Dificil</td>
+            <td>$85000</td>
+        </tr>
+        </tbody>
+        
+        
+    </table>
+    </section>
+
+    
+    <div id="informacion-complementaria">
+    <p>Los recorridos salen sábados y domingos a las 7:00 a. m. <strong>Qué llevar: ropa cómoda, agua, protector solar y documento de identidad.</strong></p>
+    </div>
+    </section>
+    </section>
+
+    <a class="bg-success rounded text-white text-decoration-none p-3 m-3" href="reservas.html">Reservar ahora</a>
+    </main>
+
+    <footer class="d-flex flex-column flex-sm-row justify-content-around">
+
+        <section id="marca">
+
+            <img src="../img/logo.png" alt="">
+            <p>Rueda libre</p>
+
+        </section>
+
+        <section id="contacto">
+
+            <h3>contacto</h3>
+            <a href="mailto: hola@ruedalibre.example" target="_blank">hola@ruedalibre.example</a>
+
+        </section>
+
+        <section id="horario">
+
+            <h3>Horarios de atencion</h3>
+    <dl>
+
+        <dt>Entre semana</dt>
+        <dd>7AM → 7PM</dd>
+
+        <dt>Fines de semana y festivos</dt>
+        <dd>6AM → 2PM</dd>
+
+    </dl>
+
+        </section>
+            
+
+            <a class="bg-success rounded text-white text-decoration-none p-3 m-3" href="https://wa.me/573000000000" target="_blank" id="whatsapp">WhatsApp</a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

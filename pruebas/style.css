@@ -70,16 +70,7 @@ h1, h2, h3{
 
 header{
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-}
-
-header #logo-titulo{
-
-    display: flex;
-    flex-direction: row;
+    background-color: var(--azul-noche);
 
 }
 
@@ -90,15 +81,9 @@ header img{
 }
 
 /*Nav bar*/
-#menu{
 
-    display: flex;
-    gap: var(--espaciado-grande);
-    flex-wrap: wrap;
 
-}
-
-#menu .inactivo { color: var(--gris-asfalto); }
+#menu .inactivo { color: white; }
 .activo { color: var(--verde-ruta); font-weight: 600; }
 
 
@@ -114,36 +99,6 @@ header img{
 
 }
 
-/*botones de funciones adicionales*/
-.reservar-ahora{
-
-    border-radius: 5px;
-    background-color: var(--verde-ruta);
-    padding: var(--espaciado-pequeno);
-
-}
-
-.reservar-ahora a{
-
-    color: var(--crema);
-    text-decoration: none;
-
-}
-
-.reservar-ahora:hover{
-
-    background-color: #1b5e20;
-
-}
-
-/*Formulario*/
-input{
-
-    border-radius: 5px;
-    border: 1px solid;
-    outline: none;
-
-}
 
 input:focus{
 
@@ -152,15 +107,7 @@ input:focus{
 
 }
 
-select{
 
-    border-radius: 5px;
-    border: 1px solid;
-    outline: none;
-    padding: var(--espaciado-pequeno);
-    background-color: #ffffff;
-
-}
 
 select:focus{
 
@@ -169,160 +116,9 @@ select:focus{
 
 }
 
-#input{
-
-    display: flex;
-    flex-direction: column;
-
-}
-
-#input input{
-
-    padding: var(--espaciado-pequeno);
-
-}
-
-#boton button{
-
-    padding: var(--espaciado-mediano);
-    width: 50%;
-    margin-inline: auto;
-    background-color: var(--verde-ruta);
-    color: var(--crema);
-    border-radius: 5px;
-
-}
-
-#boton{
-
-display: flex;
-flex-direction: column;
-
-}
-
 fieldset{
 
     margin: var(--espaciado-mediano);
-
-}
-
-#nombre-doc{
-
-    display: flex;
-    flex-direction: row;
-    gap: var(--espaciado-grande);
-    width: 100%;
-
-}
-#nombre-doc input{
-
-    width: 100%;
-
-}
-
-
-/*Flota y rutas*/
-
-/*#flota , #rutas{
-
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: var(--espaciado-mediano);
-
-}
-
-#flota , #rutas {
-
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: var(--espaciado-mediano);
-
-}
-
-#flota article, #rutas article{
-
-    border: solid 1px black;
-    border-radius: 7px;
-    padding: var(--espaciado-pequeno);
-    display: flex;
-    flex-direction: column;
-
-}
-
-#flota article img{
-
-    width: 100px;
-
-}
-
-#rutas article img{
-
-    width: 100%;
-
-}
-
-#img-2{
-
-    width: 100%;
-
-}*/
-
-/*Contenido reservas*/   
-#contenido{
-
-    display: grid;
-    grid-template-columns: 1fr;
-
-}
-
-
-/*Portada*/
-/*#bienvenida{
-
-    min-height: 100vh;
-    display: grid;
-    grid-template-columns:1fr;
-
-}
-
-#bienvenida img{
-
-    width: 70%;
-
-}
-
-#bienvenida button{
-
-    max-width: 14rem;
-    margin: var(--espaciado-mediano);
-
-}
-
-#bienvenida article{
-
-    display: flex;
-    flex-direction: column;
-
-}*/
-
-/*Seccion encuentranos, pagina principal*/
-
-#encuentranos{
-
-    display: flex;
-    flex-direction: column;
-
-}
-
-#encuentranos button{
-
-    width: 20%;
-
-}
-
-#encuentranos img{
-
-    width: 50%;
 
 }
 
@@ -337,11 +133,7 @@ fieldset{
 
 }
 
-#venta-bicicleta img{
 
-    width: 100%;
-
-}
 /*Tarjeta recorridos*/
 #venta-recorridos{
 
@@ -350,12 +142,6 @@ fieldset{
     margin: var(--espaciado-mediano);
     padding: var(--espaciado-pequeno);
     
-}
-
-#venta-recorridos img{
-
-    width: 100%;
-
 }
 
 /*Tablas*/
@@ -387,10 +173,8 @@ fieldset{
 
 footer{
 
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    background-color: var(--azul-noche);
+    color: white;
 
 }
 
@@ -414,109 +198,11 @@ footer #marca img{
 
 @media (min-width: 768px){
 
-    header{
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-}
-    
-    #bienvenida{
-
-    min-height: 100vh;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-
-}
-#contenido{
-
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-
-} 
-#flota , #rutas{
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr) ;
-    gap: var(--espaciado-mediano);
-
-}
-
-footer{
-
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-}
-
-#tabla-bicicleta table tr th, td{
-
-    padding: var(--espaciado-pequeno);
-
-}
-
-#tabla-recorrido table tr th, td{
-
-    padding: var(--espaciado-pequeno);
-
-}
 
 }
 
 @media (min-width: 1200px){
 
-    header{
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-}
-
-    #bienvenida{
-
-    min-height: 100vh;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-
-}
-#contenido{
-
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-
-} 
-#flota , #rutas{
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr) ;
-    gap: var(--espaciado-mediano);
-
-}
-
-footer{
-
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-}
-
-#tabla-bicicleta table tr th, td{
-
-    padding: var(--espaciado-pequeno);
-
-}
-
-#tabla-recorrido table tr th, td{
-
-    padding: var(--espaciado-pequeno);
-
-}
 
 }
 

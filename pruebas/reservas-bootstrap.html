@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas Rueda libre</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body class="d-flex flex-column gap-5">
+
+    <header class="d-flex flex-column flex-sm-row justify-content-between">
+
+        <div class="d-flex flex-row align-items-center">
+            <div>
+            <img src="../img/logo.png" alt="logo">
+            </div>
+            <div>
+            <h3 class="text-white">Rueda Libre</h3>
+        </div>
+
+        </div>
+
+        <nav class="d-flex flex-row m-4 gap-3" id="menu">
+            <a href="index-bootstrap.html" class="inactivo">Inicio</a>
+            <a href="tarifas-bootstrap.html" class="inactivo">Tarifas y recorridos</a>
+            <a href="reservas-bootstrap.html" class="activo">Reservas</a>
+        </nav>
+        
+
+    </header>
+
+    <main class="container">
+
+    <section class="row g-4 m-4">
+        <article class="col-12 col-md-8 pl-4 w-80">
+    <h1 class="m-3">Reserva tu bicicleta</h1>
+    <p>Aqui podras rellenar el formulario para reservar tu bicicleta y tu recorrido</p>
+    <a class="bg-success rounded text-white text-decoration-none p-3 m-3" href="mailto: hola@ruedalibre.example" target="_blank">Contactanos</a>
+        </article>
+        <article class="col-12 col-md-4">
+    <img class="img-fluid"  src="../img/imagen-portada.webp" alt="logo">
+        </article>
+    </section>
+    
+    
+    <section class="row g-4 row-cols-1 row-cols-md-2">
+    
+    <section>
+
+        <form action="" method="post">
+            <fieldset>
+                <legend>Tus datos</legend>
+            <div class="row g-4 row-cols-2">
+            <p class="d-flex flex-column">
+            <label for="nombre">Nombre completo</label>
+            <input class="rounded p-2" type="text" name="nombre" placeholder="Ingrese su nombre" required minlength="3" title="Ingrese minimo 3 caracteres">
+            </p>
+            <p class="d-flex flex-column">
+            <label for="documento">N. documento</label>
+            <input class="rounded p-2" name="documento" type="text" placeholder="Ingrese su documento" required minlength="6" maxlength="10" title="su documento debe tener entre 6 y 10 caracteres">
+            </p>
+            </div>
+            <p class="d-flex flex-column">
+            <label for="correo">Correo electronico</label>
+            <input class="rounded p-2" name="correo" type="email" placeholder="Ingrese su correo" required title="este campo es obligatorio">
+            </p>
+            <p class="d-flex flex-column">
+            <label for="numero">Numero de contacto</label>
+            <input class="rounded p-2" name="numero" type="number" placeholder="Ingrese su numero" required min="3000000000" max="3999999999" title="El numero de telefono debe empezar por 3 y tener 10 caracteres">
+            </p>
+            </fieldset>
+            <fieldset>
+            <legend>Tu alquiler</legend>
+            <p class="d-flex flex-column">
+            <label for="fecha">Fecha del alquiler</label>
+            <input class="rounded p-2" name="fecha" type="date" min="2026-11-01" max="2026-12-30" required title="solo se aceptan reservas entre el 1/11/26 y el 30/12/26">
+            </p>
+            <p class="d-flex flex-column">
+            <label for="tipo-bicicleta">Tipo de bicicleta</label>
+            <select class="p-2 rounded" name="tipo-bicicleta" required title="este campo es obligatorio">
+                <option value="1">Urbana</option>
+                <option value="2">Montaña</option>
+                <option value="3">Electrica</option>
+
+            </select>
+            </p>
+            <p class="d-flex flex-column">
+            <label for="tipo-plan">Tipo de plan</label>
+            <select class="p-2 rounded" name="tipo-plan" required title="este campo es obligatorio">
+
+                <option value="1">1 hora</option>
+                <option value="2">Medio dia</option>
+                <option value="3">1 dia</option>
+
+            </select>
+            </p>
+            <p class="d-flex flex-column">
+            <label for="cantidad-bicicletas">Cantidad de bicicletas</label>
+            <input  class="rounded p-2" name="cantidad-bicicletas" type="number" placeholder="Cuantas bicicletas llevara" required min="1" max="6" title="solo puedes reservar entre 1 y 6 bicicletas">
+            </p>
+            <p class="d-flex flex-column" id="input">
+            <label for="tipo-recorrido">Tipo de recorrido</label>
+            <select class="p-2 rounded" name="tipo-recorrido">
+
+                <option value="1">ninguno</option>
+                <option value="2">Rio y parques</option>
+                <option value="3">Sabores de barrio</option>
+                <option value="4">Reto las palmas</option>
+
+            </select>
+            </p>
+            </fieldset>
+            <fieldset>
+            <legend>Confirmacion</legend>
+            <p class="d-flex flex-column">
+            <label for="comentario">Comentarios</label>
+            <textarea class="rounded"  name="comentario" id="comentario" placeholder="Ingrese informacion adicional" maxlength="300" title="este campo tiene un maximo de 300 caracteres"></textarea>
+            </p>
+            <p class="d-flex flex-column">
+            <label for="terminos">
+                <input type="checkbox" name="terminos" id="terminos" required title="este campo es obligatorio">
+                Acepto los terminos de alquiler
+            </label>
+            </p>
+            <p class="text-center">
+            <button class="bg-success rounded text-white text-decoration-none p-3 w-50 m-3" type="submit">Enviar</button>
+            </p>
+            </fieldset>
+        </form>
+
+    </section>
+
+    <section>
+
+        <h2>Contacto</h2>
+
+        <p>Para contactanos por correo electronico haga click <a href="mailto: hola@ruedalibre.example" target="_blank">Aqui</a></p>
+        <p>Para escribirnos por nuestro whatsapp haga click <a href="https://wa.me/573000000000" target="_blank">Aqui</a></p>
+        <p>Para encontrar nuestra sede mas cercana haga click <a target="_blank" href="https://www.google.com/maps/place/De+Moda+Outlet/@6.2193884,-75.5859549,17z/data=!3m1!4b1!4m6!3m5!1s0x8e4429e1dab04e05:0x5a77c25c8a5faf3a!8m2!3d6.2193831!4d-75.5833746!16s%2Fg%2F11gv_xr9wj?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D">Aqui</a></p>
+
+        <h3>Horarios de atencion</h3>
+    <dl>
+
+        <dt>Entre semana</dt>
+        <dd>7AM → 7PM</dd>
+
+        <dt>Fines de semana y festivos</dt>
+        <dd>6AM → 2PM</dd>
+
+    </dl>
+        
+    </section>
+    </section>
+
+    
+
+    </main>
+
+    <footer class="d-flex flex-column flex-sm-row justify-content-around">
+
+        <section id="marca">
+
+            <img src="../img/logo.png" alt="">
+            <p>Rueda libre</p>
+
+        </section>
+
+        <section id="contacto">
+
+            <h3>contacto</h3>
+            <a href="mailto: hola@ruedalibre.example" target="_blank">hola@ruedalibre.example</a>
+
+        </section>
+
+        <section id="horario">
+
+            <h3>Horarios de atencion</h3>
+    <dl>
+
+        <dt>Entre semana</dt>
+        <dd>7AM → 7PM</dd>
+
+        <dt>Fines de semana y festivos</dt>
+        <dd>6AM → 2PM</dd>
+
+    </dl>
+
+        </section>
+            
+
+            <a class="bg-success rounded text-white text-decoration-none p-3 m-3" href="https://wa.me/573000000000" target="_blank" id="whatsapp">WhatsApp</a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
